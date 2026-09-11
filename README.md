@@ -256,19 +256,9 @@ not to spend money — happy to walk through it live if useful.
 
 ## 7. Test login credentials
 
-All demo accounts share the password **`Password@123`** (set in `backend/prisma/seed.ts` —
-change or remove these before using this in anything real).
+Demo accounts are created by `backend/prisma/seed.ts`.
 
-| Role | Email |
-|---|---|
-| Admin | `admin@erpcrm.test` |
-| Sales | `sales@erpcrm.test` |
-| Warehouse | `warehouse@erpcrm.test` |
-| Accounts | `accounts@erpcrm.test` |
-
-The login screen also has one-click buttons to fill these in.
-
----
+For security, credentials are not published in this repository.
 
 ## 8. Known limitations, assumptions, and what's intentionally out of scope
 
